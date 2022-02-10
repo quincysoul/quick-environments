@@ -1,0 +1,12 @@
+root: true
+extends: 
+  - airbnb-base
+parserOptions:
+  sourceType: module
+  ecmaVersion: 13
+rules:
+  brace-style:
+    - error
+    - stroustrup
+  react/react-in-jsx-scope:
+    off
